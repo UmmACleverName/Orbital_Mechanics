@@ -58,6 +58,3 @@ To turn on this DEBUG just go into the Makefile and change DDEBUG=0 to DDEBUG=1.
 If there are some todos in the code then that is just me thinking about possible ways of improving the code. However,
 do to time constraint I was not able to implement those ideas.
 
-##VIMRC
-If the files are complicated to read. I've added a copy of the .vimrc as vimrc I use. Just change the 'vimrc' to '.vimrc'
-and move to your home directory. 
