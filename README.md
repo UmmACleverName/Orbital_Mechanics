@@ -1,7 +1,5 @@
 #SciTec Coding Problem
 
-##Hope all this works... 
-
 ##Build Instructions 
 Run the command 'make' or 'make main'. This will generate all the binaries, and place them in the bin directory. 
 Tried to use makefile since it automates the build process for the executable. If make does 
