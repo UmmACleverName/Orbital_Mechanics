@@ -4,25 +4,6 @@ Tried to use makefile since it automates the build process for the executable. I
 not work then run "g++ -I. -std=c++2a -c [REPLACE THIS FOR EACH SOURCE FILE]". 
 Next, run "g++ -o main [REPLACE THIS WITH ALL BINARIES GENERATES]" which will generate the main executable. 
 
-example:
-make
-or 
-make main 
-
-[OUTPUT BEGIN]
-g++ -DDEBUG=0 -g -Wall   -I.  -std=c++20 -c src/object_state.cpp
-g++ -DDEBUG=0 -g -Wall   -I.  -std=c++20 -c src/computational_maths.cpp
-g++ -DDEBUG=0 -g -Wall   -I.  -std=c++20 -c src/vector.cpp
-g++ -DDEBUG=0 -g -Wall   -I.  -std=c++20 -c src/wgs84.cpp
-g++ -DDEBUG=0 -g -Wall   -I.  -std=c++20 -c src/utilities.cpp
-g++ -DDEBUG=0 -g -Wall   -I.  -std=c++20 -c src/main.cpp
-g++ -DDEBUG=0 -g -Wall   -I.  -std=c++20 -o main object_state.o computational_maths.o vector.o wgs84.o utilities.o main.o
-mv object_state.o computational_maths.o vector.o wgs84.o utilities.o main.o ./bin/
-mv main ./bin/
-[OUTPUT END]
-
-
-
 ## Run Instructions
 After building all the binaries there will be an executable named 'main' in the bin directory. Just run 
 the executable, and follow any instructions that is requested. 
